@@ -1,0 +1,16 @@
+{
+  "name": "template-and-styling",
+  "version": "1.0.0",
+  "description": "MAQE Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "thasup",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}

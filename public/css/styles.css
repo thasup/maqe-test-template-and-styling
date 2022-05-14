@@ -1,0 +1,48 @@
+body {
+  position: relative;
+}
+
+.card {
+  box-shadow: 1px 1px 12px #555;
+}
+
+.card:nth-child(even) {
+  background-color: #ccecff;
+}
+
+.card:nth-child(odd) .card-header {
+  background-color: #fff;
+}
+
+.author-title {
+  color: orangered;
+  margin-left: 1rem;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.date-time {
+  margin-left: 1rem;
+}
+
+.footer-padding {
+  padding-bottom: 100px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+}
